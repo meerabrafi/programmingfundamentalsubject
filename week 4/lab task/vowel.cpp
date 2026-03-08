@@ -7,19 +7,19 @@ cin>>ch;
 if(ch>='0'&& ch<='9'){
 cout<<"It is a number"<<endl;
 }
-if (ch=='a'){ 
+else if (ch=='a'){ 
 cout<<"It is vowel";
 }
-if (ch=='e'){
+else if (ch=='e'){
 cout<<"It is a vowel";
 }
-if (ch=='i'){
+else if (ch=='i'){
 cout<<"It is a vowel";
 }
-if (ch=='o'){
+else if (ch=='o'){
 cout<<"It is a vowel";
 }
-if(ch=='u'){
+else if(ch=='u'){
 cout<<"It is a vowel";
 }
 else if (ch>='a' && ch<='z'){
