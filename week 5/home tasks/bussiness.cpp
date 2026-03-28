@@ -11,7 +11,6 @@ main()
     cout<<"4. Generate bill "<<endl;
     cout<<"5. Contact staff "<<endl;
     cout<<"Exit"<<endl;
-    return 0;
     cout<<"Enter your choice ";
     cin>>choice;
     if(choice=="1")

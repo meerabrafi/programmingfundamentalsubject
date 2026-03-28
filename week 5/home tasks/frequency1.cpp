@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
 int number,digit,rem;
+int original=number;
 int count=0;
 cout<<"Enter the number:";
 cin>>number;
@@ -15,6 +16,6 @@ count=count +1;
 }
 number=number/10;
 }
-cout<<"Frequecy of "<<digit<<" in "<<number<<"is :"<<count<<endl;
+cout<<"Frequecy of "<<digit<<" in "<<<"is :"<<count<<endl;
 
 }
